@@ -16,7 +16,7 @@ In SVM algorithm, the goal is to find thickest "pipe" which will separate classe
 
 ### Trees
 
-### Neighbours
+### Neighbors
 
 ### Linear
 
