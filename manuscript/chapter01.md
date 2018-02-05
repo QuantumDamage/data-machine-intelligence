@@ -1,3 +1,7 @@
+# Preface
+
+lorms
+
 # Algorithms
 
 ## Classification
@@ -7,6 +11,14 @@
 ## Regression
 
 ### SVM
+
+Support Vector Machine is algorithm used in classification. In simplest example, there are two classes which are mutually exclusive. Every data point is described by n features. We are searching for such n-1 hyperplane, that will divide points according to classes with biggest possible margin. If our n will be 2, so every point will have 2 features, our hyperplane will be 1d - so it will be line. If n will be 3, our hyperplane will be 2d - it will be plane. This is the linear approach.
+
+There is also non-linear approach which allows to construct n-1 dimensional structure which will better fit into classes separation.
+
+#### Implementation
+
+
 
 #### ELI5
 
