@@ -1,6 +1,6 @@
-# Data Science Cheat Book
+# [Data, Statistics, Intelligence] Cheat Book
 
-Everything you need to start with data science, machine learning and artificial intelligence.
+Everything you need to start with data science, statistics and artificial intelligence.
 
 Copyright © 2017 [Damian Melniczuk](https://data.melniczuk.eu).
 
