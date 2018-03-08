@@ -1,0 +1,27 @@
+topic,neighbours
+Problem,"Data, Machine, Intelligence"
+Reinforcement Learning,Artificial Intelligence
+Deep Reinforcement Learning,"Deep Learning, Reinforcement Learning"
+Supervised Learning,Machine Learning
+Classification,Supervised Learning
+Regression,Supervised Learning
+Tiemseries,Supervised Learning
+Artificial Neural Network,Machine Learning
+SVM,Classification
+Kernel Trick,SVM
+Deep Learning,Artificial Neural Network
+GAN,Deep Learning
+Data,Data Science
+Hardware,Machine
+GPU,Hardware
+Software,Data
+Python,Software
+Pachyderm,Software
+Cloud,Data
+Gathering of Data,Data
+Generators,Gathering of Data
+Unsupervised Learning,Machine Learning
+Interpolation,Unsupervised Learning
+Data Science,Artificial Intelligence
+Machine Learning,"Artificial Intelligence, Supervised Learning, Unsupervised Learning, Reinforcement Learning"
+Artificial Intelligence,"Data Science, Machine Learning, Intelligence"
