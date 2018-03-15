@@ -5,3 +5,10 @@ Everything you need to start with data science, statistics and artificial intell
 Copyright © 2017 [Damian Melniczuk](https://data.melniczuk.eu).
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE)
+
+## Currently covered topics:
+ * Machine learning 	- 16%
+ * Neural network 	- 00%
+ * Classification 	- 00%
+ * Deep learning 	- 00%
+ * Python		- 00%
