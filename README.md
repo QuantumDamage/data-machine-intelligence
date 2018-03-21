@@ -11,4 +11,6 @@ Copyright © 2017 [Damian Melniczuk](https://data.melniczuk.eu).
  * Neural network 	- 00%
  * Classification 	- 00%
  * Deep learning 	- 00%
- * Python		- 00%
+ * [Python](data/python.md)				- 30%
+ * Scikit-learn		- 00%
+ * Pandas		- 00%
