@@ -14,3 +14,6 @@ Copyright © 2017 [Damian Melniczuk](https://data.melniczuk.eu).
  * [Python](data/python.md)				- 30%
  * Scikit-learn		- 00%
  * Pandas		- 00%
+ * [Random forest](data/random-forest.md)		- 30%
+ * Decision trees	- 00%
+ * R			- 00%
