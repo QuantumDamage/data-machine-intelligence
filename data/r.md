@@ -6,7 +6,7 @@ I have quite nice experience with programming statistical analyzes in R. **Can I
 
 ### Solution
 
-![R](images/noun_1390658_ccpng){ width=20% }
+![R](images/noun_1390658_cc.png){ width=20% }
 
 R is programming language designed to support statistical computing. Similarly to Python it can be executed interactively. This feature heavily supports quick experimentation cycles.
 
