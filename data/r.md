@@ -29,7 +29,11 @@ If you know R you can use it to work with implementations of all modern data sci
 ### Best practices
 
 * If you are using Anaconda you can use *envs* to switch seamless between R versions and its libraries.
-* While publishing analysis done with R it is worth to include outputs of **sessionInfo()** command. This will show which version of R and included libraries were used. 
+* While publishing analysis done with R it is worth to include outputs of **sessionInfo()** command. This will show which version of R and included libraries were used.
+* If your data comes in array (or often called matrix - every value has the same type) you should consider using **apply** function for selecting, transforming or aggregating data. **apply** function is optimized to run in vectorized mode which means more or less that it could use parallelism and is quite fast. You can put build in functions into **apply** or write your function and run it with **apply**. You can consider it as smart loop if you want to do something loop like over data structure.
+* **lapply** and **sapply** functions works similarly as **apply** function but they are not limited into arrays/matrix. They both are working in the same way, but by default **lapply** returns output which is list, and **sapply** returns simplest possible output.
+* R has very powerful integration with C++ through Rcpp project family. If you are familiar with C++, you could write functions with it and use them inside your R scripts. It is often good idea when you are hitting performance limits with pure R.
+* If you have considerations about performance of your code you can always use profiler to examine which part of it takes the most of execution time. Simplest way to use profiler with R is to use RStudio IDE. Profiler has its own menu under **Profile**. 
 
 ### Related
 

@@ -16,6 +16,6 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
  * Pandas		- 00%
  * [Random forest](data/random-forest.md)		- 100%
  * Decision trees	- 00%
- * [R](data/r.md)					- 63%
+ * [R](data/r.md)					- 92%
  * Predictive modeling	- 00%
  * Data mining		- 00%
