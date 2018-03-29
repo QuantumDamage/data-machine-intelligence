@@ -11,7 +11,7 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
  * Neural network 	- 00%
  * Classification 	- 00%
  * Deep learning 	- 00%
- * [Python](data/python.md)				- 70%
+ * [Python](data/python.md)				- 100%
  * Scikit-learn		- 00%
  * Pandas		- 00%
  * [Random forest](data/random-forest.md)		- 100%

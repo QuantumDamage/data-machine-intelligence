@@ -21,10 +21,16 @@ To extend Python functionality you could easily install additional modules. Pyth
 To install module you could try to install it via conda - **conda install module**. If it is not available you can try to install it via pip - **pip install module**. Installation methods are usually described in module documentation on its website. If you have choice - installing via conda is usually better option.
 
 Most interesting Python modules related to data science:
-* [pandas](https://pandas.pydata.org/pandas-docs/stable/install.html) - pandas module provides data frames for Python. Thanks to it there is easy way to create, read, transform, summarize and slice data frames natively in Python.
-* [scikit-learn](http://scikit-learn.org/stable/install.html) - most popular and most universal module for machine learning. It has lots of algorithms for supervised and unsupervised learning.
-* [numpy](http://www.numpy.org/) - Python modules with fast (written in C++ and Fortran) implementations of numeric functions. Essential module for array operations and dependency for other various data science modules.
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html) - Pandas module provides data frames for Python. Thanks to it there is easy way to create, read, transform, summarize and slice data frames natively in Python. It is part of [SciPy](https://www.scipy.org/) ecosystem.
+* [Scikit-learn](http://scikit-learn.org/stable/install.html) - most popular and most universal module for machine learning. It has lots of algorithms for supervised and unsupervised learning.
+* [Numpy](http://www.numpy.org/) - Python modules with fast (written in C++ and Fortran) implementations of numeric functions. Essential module for array operations and dependency for other various data science modules. It is part of [SciPy](https://www.scipy.org/) ecosystem.
 * [Jupyter Notebook](https://jupyter.org/install) - Jupyter Notebook is quite nice and popular IDE for creating interactive analysis and reports. It is designed to support Python, R and Julia, but there are many other *kernels* (execution environments) which can extend it.
+* [Keras](https://keras.io/) - Keras is high level module for creating, training and using neural networks. It can use different backends like TensorFlow, Theano and MXNet. 
+* [Matplotlib](https://matplotlib.org/) - Matplotlib is most developed, powerful and popular Python framework for generating plots. It has rich API and customization options, but it have some "rough edges" and it might be hard to use for beginners. It is part of [SciPy](https://www.scipy.org/) ecosystem.
+* [Seaborn](https://seaborn.pydata.org/) - Seaborn is Python module which wraps Matplotlib and serves it in more user friendly manner. If you like Matplotlib but have problems with using it - Seaborn might be good idea.
+* [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) - Bokeh is another visualization module for Python, designed with interactivity in mind. It can create plots with various interactive controls, so user can use point and click interface to explore data.
+* [Holoviews](http://holoviews.org/) - Holoviews is wrapper kind of module. Its philosophy is to enable quick visual data examination by creating additional abstractions combined with visualizations. It uses *Bokeh* and *Matplotlib* among others as rendering engine.
+* [Datashader](http://datashader.org/) - Datashader is quite new module designed to allow plotting of millions of data points. It works in two stages - firstly it calculates aggregations of data to plot, and then it plots it.
 
 ### ELI5
 
