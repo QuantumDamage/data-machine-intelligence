@@ -13,11 +13,11 @@ And what do I meant about Data Science? Well, I plan to cover topics from machin
 
 How to use this book? Each topic included in it, is designed to be self contained. They are written with goal of getting you as fast as possible into selected topic, so even if you are not an expert, you will immediately be able to start *connecting dots*.
 
-This book is available **forever for free** as raw text, but if there will be enough interest I might publish it on [Leanpub](https://leanpub.com/) as nicely compiled e-book, or even in print through something like [Lulu](https://www.lulu.com/)
+This book is available **forever for free** as raw text, but if there will be enough interest I might publish it on [Leanpub](https://leanpub.com/) as nicely compiled e-book, or even in print through something like [Lulu](https://www.lulu.com/).
 
 Anyway, I hope it will help you with getting into data science and solving great problem of mankind.
 
-If you have any questions, suggestions, requests or just want to chat, you can find me in dedicated [gitter](https://gitter.im/data-science-cheat-book/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+If you have any questions, suggestions, requests or just want to chat, you can find me in dedicated [gitter](https://gitter.im/data-science-cheat-book/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
 Thanks,
 Damian
