@@ -1,5 +1,7 @@
 # Data Science Cheat Book
 
+[![Join the chat at https://gitter.im/data-science-cheat-book/Lobby](https://badges.gitter.im/data-science-cheat-book/Lobby.svg)](https://gitter.im/data-science-cheat-book/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Everything you need to start with data science.
 
 Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
