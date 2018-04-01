@@ -10,7 +10,7 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
 
 ## Currently covered topics:
  1. [Machine learning](data/machine-learning.md) 	- 100%
- 2. [Neural network](data/neural-network.md) 		- 54%
+ 2. [Neural network](data/neural-network.md) 		- 82%
  3. Classification 	- 00%
  4. [Deep learning](data/deep-learning.md)	 	- 00%
  5. [Python](data/python.md)				- 100%

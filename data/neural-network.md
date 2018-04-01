@@ -11,6 +11,7 @@ There are one thousand and one supervised learning algorithms. **Is there one un
 Neural network is set of objects and functions combined as one model, designed to solve one type of task, usually formulated as supervised learning problem. It is loosely inspired by brain structure, hence the *neural* part in its name. It has network stricture because it is build upon single functional entities called neurons.
 
 Each neural network consist following elements:
+ 
  * layers of neurons
  * activation functions for each layers
  * weights for connections between neurons
@@ -24,19 +25,16 @@ Some of most interesting activation functions:
 #### Perceptron
 
 Oldest activation function used in neural networks. It outputs value 1 if input is positive, and outputs 0 if input is negative. $$ f(x) = \begin{cases}1 & \text{if }\ w \cdot x + b > 0\\0 & \text{otherwise}\end{cases} $$ 
-where *w* is a vector of real-valued weights, $w \cdot x$ is the $\sum_{i=1}^m w_i x_i$, where *m* is the number of inputs to the perceptron and *b* is the bias.
+where *w* is a vector of real-valued weights, $w \cdot x$ is the $\sum_{i=1}^m w_i x_i$, where *m* is the number of inputs to the perceptron and *b* is the bias. It is computationally very simple and quick, but network consisting such a layer generalizes quite poorly in comparison to network with other activation function. It is not used to often in practice anymore.
  
 #### Sigmoid 
 
-
-
-#### Hyperbolic tangent
-
-
+Sigmoid function is better in generalization than perceptron. It returns continuous values form range 0 to 1 and works for all input values. On the plot it looks like widened *S* letter - it might be used for mnemonic for sigmoid name. It is represented in following mathematical form: $$ f(x)=\sigma(x)=\frac{1}{1+e^{-x}}. $$
 
 #### Rectifier 
 
-
+The problem with Sigmoid function is that it is quite expensive computationally and it gives nice values for input around zero, but the farther from zero the smaller smaller output values differ from 0 or 1. So in some cases it might be wasteful to use sigmoid. Quite nice alternative to sigmoid is Rectifier (or sometimes called ReLU). Rectifier will return 0 for inputs smaller than 0 and input value otherwise. It could be noted as: $$ f(x) = x^+ = \max(0, x). $$
+If rectifier is to be used as activation function in a neural network right after input layer, input layer should be transformed in order to have only positive values. If it would have negative values, those values would be discarded by ReLU layer.
 
 ### ELI5
 
