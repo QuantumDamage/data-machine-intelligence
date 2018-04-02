@@ -36,6 +36,10 @@ Sigmoid function is better in generalization than perceptron. It returns continu
 The problem with Sigmoid function is that it is quite expensive computationally and it gives nice values for input around zero, but the farther from zero the smaller smaller output values differ from 0 or 1. So in some cases it might be wasteful to use sigmoid. Quite nice alternative to sigmoid is Rectifier (or sometimes called ReLU). Rectifier will return 0 for inputs smaller than 0 and input value otherwise. It could be noted as: $$ f(x) = x^+ = \max(0, x). $$
 If rectifier is to be used as activation function in a neural network right after input layer, input layer should be transformed in order to have only positive values. If it would have negative values, those values would be discarded by ReLU layer.
 
+Last element which is part of neural network are weights. In fact, weights are essence of neural network - during training process we are calculating weight of each connection between neurons and we are modifying them in order to get better results. Trained network, apart of its architecture definition also has vectors of calculated weights.
+
+So how exactly neural network works? Since we have supervised learning problem, we have independent variables and target dependent variable. We are using first layer of network for representing input features. Second layer will be main *body* responsible for creating best possible approximation functions. And third layer will be responsible for making prediction. When training begins, neural network will be initialized with random values and each data point will be pushed through it. Then, at the end of network loss will be calculated. Based on loss change network weights will be adjusted and another round of training will begin. Network will be trained on data points in fixed number of rounds of if satisfying level of loss will be achieved.  
+
 ### ELI5
 
 Neural network is a machine learning model which is supposed to give sane results for all type of problems, but it might require lots of data to train and some work in picking good hyperparameters.
@@ -43,6 +47,7 @@ Neural network is a machine learning model which is supposed to give sane result
 ### Best practices
 
  * Although you can code your own neural network from scratch (Python and Numpy example [here](https://github.com/llSourcell/Make_a_neural_network/blob/master/demo.py)) it is recommended to use one of common open source neural network libraries - either for R or Python. 
+ * Simple neural network can be trained quickly on CPU. But if the network has high number of neurons in layers and high number of data points it might take significantly more time to train. In this situation it might be worth to train network on hardware which has dedicated GPU. If you implementation is hand made you will have to modify your code to use CUDA or OpenCI programming language. But if you are using Python or R neural network frameworks they usually have support for GPU build in. **If you already have GPU, you should always use it**.
 
 ### Related
 
