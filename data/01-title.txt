@@ -1,0 +1,6 @@
+---
+title: Data Science Cheat Book
+author: Damian Melniczuk
+rights:  CC BY-NC-SA 4.0
+language: en-US
+...

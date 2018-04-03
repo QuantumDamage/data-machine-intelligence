@@ -25,3 +25,8 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
  14. Convnet		- 00%
  15. Tensorflow		- 00%
  16. Backpropagation	- 00%
+ 17. [Numpy](data/numpy.r)				- 00%
+ 18. Matrix factorisation	- 00%
+ 19. Dataset			- 00%
+ 20. Regression			- 00%
+ 21. Big data			- 00%
