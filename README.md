@@ -10,10 +10,10 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
 
 ## Currently covered topics:
  1. [Machine learning](data/machine-learning.md) 	- 100%
- 2. [Neural network](data/neural-network.md) 		- 100%
- 3. Classification 	- 00%
+ 2. [Python](data/python.md)				- 100%
+ 3. [Neural network](data/neural-network.md) 		- 100%
  4. [Deep learning](data/deep-learning.md)	 	- 00%
- 5. [Python](data/python.md)				- 100%
+ 5. [Classification](data/classification.md)	 	- 28%
  6. Scikit-learn	- 00%
  7. Pandas		- 00%
  8. [Random forest](data/random-forest.md)		- 100%
@@ -25,7 +25,7 @@ Copyright © 2018 [Damian Melniczuk](https://data.melniczuk.eu).
  14. Convnet		- 00%
  15. Tensorflow		- 00%
  16. Backpropagation	- 00%
- 17. [Numpy](data/numpy.r)				- 00%
+ 17. [Numpy](data/numpy.r)				- 35%
  18. Matrix factorisation	- 00%
  19. Dataset			- 00%
  20. Regression			- 00%
